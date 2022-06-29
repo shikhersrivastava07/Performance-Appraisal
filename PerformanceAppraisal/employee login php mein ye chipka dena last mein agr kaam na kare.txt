@@ -1,0 +1,6 @@
+else{
+		$data=mysqli_fetch_assoc($run);
+		$id=$data['id'];
+		$_SESSION['uid']=$id;
+		header('#');
+	}
